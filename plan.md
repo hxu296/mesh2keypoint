@@ -15,16 +15,17 @@
         - if multiple meshes in the directory, iteratively load-process-dump each mesh to save memory 
     - load mesh2keypoint_util.py with mesh, dataset, camera
     - get and dump the result to the output directory
+- flags
+    - mesh [path to mesh directory or file] 
+    - regressor [mano or smpl regressor] 
+    - camera [path to camera view file] 
+    - write_contour [path to write contour] 
+    - write_depthmap [path to write depth map] 
+    - write_keypoint [path to write keypoint] 
+    - write_all [path to write contour, depthmap, and keypoint]
+
 ### mesh2keypoint_util.py
-- init(mesh, dataset, camera)
-    - load smpl and mano regressor # don't want to do this everytime
-    - self.mesh
-    - self.keypoint
-    - self.depthmap
-    - self.contour
-- load_mesh(mesh)
-    - self.keypoint = self.depthmap = self.contour = None
-    - return mesh
-- get_keypoint()
-- get_depthmap()
-- get_contour()
+- what does this file does
+    - get_keypoint
+    - get_depthmap
+    - get_contour
