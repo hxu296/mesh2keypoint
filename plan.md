@@ -29,6 +29,7 @@
 - device [cpu or gpu]
 
 ### sample_kp_util.py (core function)
+- initialized with a mesh, a camera (rotation and translation matrix), and a joint regressor (smpl or mano)
 - get_2d_keypoint
 - get_depthmap
     - based on AMASS_unify's implementation in depth.py using vispy
