@@ -28,7 +28,7 @@
 - write_all [path to write contour, depthmap, and keypoint]
 - device [cpu or gpu]
 
-### sample_kp_util.py 
+### sample_kp_util.py (core function)
 - get_2d_keypoint
 - get_depthmap
     - based on AMASS_unify's implementation in depth.py using vispy
