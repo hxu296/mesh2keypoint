@@ -28,7 +28,7 @@
 - write_all [path to write contour, depthmap, and keypoint]
 - device [cpu or gpu]
 
-### sample_kp_util.py (core function)
+### sample_kp_utils.py (core function)
 - initialized with a mesh, a camera (rotation and translation matrix), and a joint regressor (smpl or mano)
 - get_3d_keypoint
 - get_2d_keypoint
