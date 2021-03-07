@@ -28,13 +28,13 @@
 - write_all [path to write contour, depthmap, and keypoint]
 - device [cpu or gpu]
 
-### sample_kp_util.py
+### sample_kp_util.py 
 - get_2dkeypoint
 - get_depthmap
     - based on AMASS_unify's implementation in depth.py using vispy
 - get_contour
 
-### camera_utils.py
+### camera_utils.py (implementation from Facebook)
 - qrot (rotate based on quaternion)
 - qinverse
 - wrap (torch to numpy without loss of generality)
